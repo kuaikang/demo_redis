@@ -86,7 +86,7 @@
     <!--</bean>-->
      
     <!-- 工具类实现   --> 
-    <bean id="cacheService" class="com.exue.question.cache.impl.RedisCacheImpl">
+    <bean id="cacheService" class="com.example.demo.cache.impl.RedisCacheImpl">
         <property name="redisTemplate" ref="redisTemplate" />  
     </bean>  
      
