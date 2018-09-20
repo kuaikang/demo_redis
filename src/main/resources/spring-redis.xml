@@ -4,7 +4,7 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
                         http://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
 
-    <bean id="redisUtil" class="com.exue.question.util.RedisUtil"/>
+    <bean id="redisUtil" class="com.example.demo.util.RedisUtil"/>
 
     <!-- redis连接池配置-->    
     <bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig" >    
